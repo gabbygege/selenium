@@ -6,7 +6,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 email = 'gabbyfebriann@gmail.com'
-password = 'GeGe24243'
+password = ''
 driver = webdriver.Chrome(executable_path=os.path.abspath("chromedriver"))
 driver.get('https://detik.com')
 driver.find_element_by_id('identifierId').send_keys(email)
